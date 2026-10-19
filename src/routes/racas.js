@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { autenticar } from "../middleware/auth.js";
+import { autenticar } from "../middlewares/autenticar.js";
 
 const router = Router();
 const campos = ["nome", "origem", "temperamento", "pelagem", "tamanho", "expectativaVidaAnos"];

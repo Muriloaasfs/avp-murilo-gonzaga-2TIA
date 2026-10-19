@@ -1,4 +1,4 @@
-export function autenticar(req, res, next) {
+export default function autenticar(req, res, next) {
   const authorization = req.headers.authorization;
   const partes = authorization?.split(" ") ?? [];
   const [tipo, token] = partes;

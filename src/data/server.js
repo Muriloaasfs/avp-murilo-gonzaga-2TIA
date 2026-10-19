@@ -1,8 +1,8 @@
 import "dotenv/config";
 import express from "express";
 import swaggerUi from "swagger-ui-express";
-import racasRouter from "./routes/racas.js";
-import swaggerSpec from "./swagger.js";
+import racasRouter from "../routes/racas.js";
+import swaggerSpec from "./src/data/raças.js";
 
 const app = express();
 const port = process.env.PORT || 3000;

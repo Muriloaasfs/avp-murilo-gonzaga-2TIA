@@ -60,7 +60,7 @@ const options = {
       }
     }
   },
-  apis: ["./routes/*.js"]
+  apis: ["./src/routes/*.js"]
 };
 
 export default swaggerJSDoc(options);
